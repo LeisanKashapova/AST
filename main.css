@@ -52,8 +52,8 @@ button {
     padding: 15px;
 }
 button:hover {
-    background-color: #7879e1;
-    box-shadow: 0 16px 36px rgba(128, 13, 65, 0.2);
+    background-color: #afe3c4;
+    box-shadow: 0 16px 36px rgba(35, 122, 29, 0.2);
     transition: background-color 0.3s ease-in;
 }
 /*MAIN*/
