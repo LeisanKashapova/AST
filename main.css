@@ -79,9 +79,12 @@ a {
     background: url('img/back-city.jpg') no-repeat;
     background-position: center;
     background-size: cover;
-   
-
-   
+}
+.main__container_all {
+    padding-top: 10vh;
+    background: url('img/back-city.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .main__info {
     display: flex;
@@ -110,7 +113,7 @@ footer {
     padding: 90px 20px;
     font-size: 16px;  
     font-weight: 600;
-    height: 10vh;
+    max-height: 30vh;
 }
 .footer__container {
     display: flex;
@@ -171,18 +174,44 @@ footer h3 {
     }
     }
     .firstPage__about {
-        background-color: #eaecf1;
+        /* background-color: #eaecf1; */
         max-width: 700px;
         max-height: 500px;
-      
+/*       
         display: flex;
         justify-content: center;
-       
-        align-items: center;
+        flex-direction: column;
+        align-items: center; */
         height: 70vh;
         font-size: 30px;
         padding: 50px;
-        flex-direction: column;
+        margin-bottom: 20px;
+        
         box-shadow: 0 16px 36px rgba(95, 97, 104, 0.2);
         border-radius: 10px;
     }
+    .partners__list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    .partners__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* border: 1px solid #EBEBF1; */
+        border-radius: 5px;
+    }
+    .partners__container_logo {
+        width: 234px;
+        height: 64px;
+        cursor: pointer;
+        padding: 27px 28px;
+        object-fit: contain;
+    }
+    
