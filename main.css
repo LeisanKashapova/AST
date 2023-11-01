@@ -29,8 +29,12 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 0 20px;
 
+}
+.header__contacts {
+    display: flex;
+    gap: 30px;
 }
 .header__mail {
     display: flex;
@@ -42,7 +46,7 @@ a {
     flex-direction: column;
 }
 .header__logo {
-    height: 100px;
+    height: 90px;
 }
 
 .header__menu {
@@ -55,10 +59,10 @@ a {
 
     background: -webkit-linear-gradient(180deg, #aacaf0,#bfbebb);background: linear-gradient(180deg, #54768b,#bfbebb);
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
-
-    box-shadow: 1px 4px 8px 1px #6d7a99;
+    /* background-color: rgb(120, 128, 135); */
+    /* box-shadow: 1px 4px 8px 1px #6d7a99; */
     padding: 10px;
     width: 20%;
     max-width: 280px;
@@ -69,8 +73,9 @@ a {
     transition: all 0.2s ease-in-out;
 }
 .header__buttons:hover {
-    background-color: #536a9f;
-    box-shadow: 0 16px 36px rgba(95, 97, 104, 0.2);
+    background-color: #3b6269;
+    /* box-shadow: 0 16px 36px rgba(95, 97, 104, 0.2); */
+    box-shadow: 1px 4px 8px 1px #50a6e7;
     transition: background-color 0.3s ease-in;
 }
 /*MAIN*/
@@ -96,6 +101,9 @@ h1 {
     text-transform: uppercase;
     font-size: 350%;
     color: #1a1f57;
+}
+.main__info h7 {
+    color: black;
 }
 .main__about {
     font-size: 150%;
@@ -174,15 +182,15 @@ footer h3 {
     }
     }
     .firstPage__about {
-        /* background-color: #eaecf1; */
+        background-color: aliceblue;
         max-width: 700px;
         max-height: 500px;
         height: 70vh;
         font-size: 30px;
         padding: 50px;
         margin-bottom: 20px;
-        
-        box-shadow: 0 16px 36px rgba(95, 97, 104, 0.2);
+        box-shadow: 1px 4px 8px 1px #6d7a99;
+       
         border-radius: 10px;
     }
     .partners__list {
@@ -199,7 +207,7 @@ footer h3 {
         display: flex;
         align-items: center;
         justify-content: center;
-        /* border: 1px solid #EBEBF1; */
+       
         border-radius: 5px;
     }
     .partners__container_logo {
@@ -209,27 +217,25 @@ footer h3 {
         padding: 27px 28px;
         object-fit: contain;
     }
-    .firstPage__about_four {
+    /* .firstPage__about_four {
         max-width: 700px;
         max-height: 500px;
         height: 70vh;
-        /* font-size: 30px; */
+       
         padding: 50px;
         margin-bottom: 20px;
-        /* opacity: .5; */
+      
         box-shadow: 0 16px 36px rgba(95, 97, 104, 0.2);
         border-radius: 10px;
-        /* background: url('img/types-2.jpg') no-repeat; */
+       
         background-position: center;
         background-size: cover;
-    }
-    .four {
+    } */
+    /* .four {
         font-size: 20px;
         color: black;
         position: relative;
         z-index: 100;
-    }
-    /* .second {
-
     } */
+ 
    
