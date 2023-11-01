@@ -125,6 +125,7 @@ a {
     /* padding-top: 20vh;
     padding-bottom: 50vh; */
     height: 60vh;
+padding-bottom: 40vh;
 }
 
 
@@ -142,6 +143,7 @@ h1 {
     font-weight: 600;
     /* color: #1a1f57; */
     color: black;
+   
 }
 
 
