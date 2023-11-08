@@ -32,7 +32,7 @@ body {
   
     object-fit: cover;
     height: 353.96px;
-    /* min-height: 350px; */
+  
 }
 .main__info_title {
     display: flex;
