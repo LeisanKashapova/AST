@@ -76,7 +76,7 @@ h1 {
     min-height: 350px;
 } */
 .firstPage__img_style {
-    min-height: 350px;
+   
     max-width: 700px;
     object-fit: cover;
     margin-top: 30px;
@@ -119,12 +119,13 @@ footer {
 .firstPage__about {
     background-color: white;
     max-width: 700px;
-    max-height: 500px;
+    max-height: 700px;
     font-size: 20px;
     padding: 50px;
     margin-bottom: 20px;
     box-shadow: 1px 4px 8px 1px #6d7a99;
     border-radius: 10px;
+    text-align:justify;
 }
 .partners__list {
     display: flex;
