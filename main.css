@@ -156,7 +156,7 @@ footer {
 
 }
 /*Смартфоны*/
-@media (min-width: 375px) {
+@media (min-width: 350px) and (max-width: 420px) {
     .header__menu_main {
         flex-direction: column;
         align-items: flex-start;
@@ -181,7 +181,7 @@ footer {
         font-weight: 600;
     }
     .main__logo {
-        width: 280px;
+        min-width: 280px;
     }
     .main__info_first {
         padding-bottom: 15vh;
@@ -190,7 +190,8 @@ footer {
         font-size: 120%;
     }
     .firstPage__about {
-        max-width: 370px;
+        min-width: 340px;
+        max-width: 690px;
         max-height: 800px;
         margin: 8px;
         font-size: 17px;
@@ -198,9 +199,15 @@ footer {
         text-align:justify;
     }
     .firstPage__img_style {
-        max-width: 355px;
+        /* min-width: 340px; */
+        min-width: 340px;
+        max-width: 690px;
         object-fit: cover;
         margin-top: 5px;
+    }
+    .firstPage__img_style {
+        min-width: 340px;
+        max-width: 690px;
     }
     .partners__container_logo {
         width: 174px;
