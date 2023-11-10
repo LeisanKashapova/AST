@@ -75,7 +75,7 @@ body {
 .text {
     text-align:justify;
 }
-@media (min-width: 350px) and (max-width: 420px) {
+@media (min-width: 350px) and (max-width: 599px) {
     .secondPage__contaner {
         display: none; 
     }
@@ -108,7 +108,7 @@ body {
         align-items: center;
         font-weight: 600;
         margin-bottom: 10px;
-        font-size: 10px;
+        font-size: 17px;
         text-align: center;
       
      
@@ -119,9 +119,9 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        width: 95%;
         height: 100%;
-        font-size: 12px;
+        font-size: 17px;
         padding-left: 4px;
         padding-right: 4px;
         margin-bottom: 5px;
