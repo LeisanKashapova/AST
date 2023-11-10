@@ -152,21 +152,8 @@ footer {
     object-fit: contain;
 }
 /* Планшеты */
-@media (max-width: 1024px) {
-.about {
-    padding: 115px 20px;
-}
-.about h1 {
-    font-size: 36px;
-    line-height: 40px;
-}
-.about__image {
-    width: 280px;
-}
-.about__sun-image {
-    width: 75px;
-    height: 75px;
-}
+@media (min-width: 720px) {
+
 }
 /*Смартфоны*/
 @media (min-width: 375px) {
@@ -197,29 +184,75 @@ footer {
         width: 280px;
     }
     .main__info_first {
-      
         padding-bottom: 15vh;
     }
     .main__about {
         font-size: 120%;
     }
     .firstPage__about {
-        
         max-width: 370px;
+        max-height: 800px;
         margin: 8px;
         font-size: 17px;
         padding: 7px;
-        /* margin-bottom: 20px; */
-       
         text-align:justify;
     }
-    
     .firstPage__img_style {
-       
         max-width: 355px;
         object-fit: cover;
         margin-top: 5px;
-        
+    }
+    .partners__container_logo {
+        width: 174px;
+        height: 74px;
+        padding: 20px;
+    }
+    .partners__list {
+        gap: 10px;
+        max-width: 370px;
+    }
+    /*footer-mobile*/
+    footer {
+        padding: 30px 18px;
+        font-size: 12px;
+    }
+    .footer__container {
+        flex-direction: column;
+    }
+    .footer__icons {
+        width: 25px;
+        /* display: flex;
+        flex-direction: row;
+        justify-content: center; */
+    }
+    .footer__bottom {
+        padding-bottom: 10px;
+        font-size: 10px;
+    }
+    .footer__bottom_mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer__title {
+        display: flex;
+        justify-content: center;
+    }
+    .footer__group {
+        display: flex;
+        justify-content: center;
+    }
+    .icons__groups {
+        display: flex;
+        justify-content: center;
+    }
+    .footer__links_forMargin {
+       display: flex;
+       justify-content: center;
+    }
+    .footer__links a {
+        margin-bottom: 10px;
+        text-transform: uppercase;
     }
     }
 
