@@ -169,7 +169,7 @@ footer {
 }
 }
 /*Смартфоны*/
-@media (max-width: 420px) {
+@media (min-width: 375px) {
     .header__menu_main {
         flex-direction: column;
         align-items: flex-start;
@@ -205,18 +205,18 @@ footer {
     }
     .firstPage__about {
         
-        max-width: 280px;
-        
-        font-size: 15px;
+        max-width: 370px;
+        margin: 8px;
+        font-size: 17px;
         padding: 7px;
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
        
         text-align:justify;
     }
     
     .firstPage__img_style {
        
-        max-width: 280px;
+        max-width: 355px;
         object-fit: cover;
         margin-top: 5px;
         
