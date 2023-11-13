@@ -194,13 +194,13 @@ footer {
         margin-left: 40px;
     }
     .firstPage__img_style {
-       
+        height: 300px;
         object-fit: cover;
         margin-top: 5px;
         width: 100%;
     }
     .firstPage__img_about {
-       
+        height: 300px;
         width: 100%;
        
     }

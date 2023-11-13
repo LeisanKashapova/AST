@@ -74,6 +74,7 @@ body {
 }
 .text {
     text-align:justify;
+    line-height: 1.5;
 }
 @media (min-width: 350px) and (max-width: 599px) {
     .secondPage__contaner {
