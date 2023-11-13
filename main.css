@@ -118,6 +118,7 @@ footer {
     box-shadow: 1px 4px 8px 1px #6d7a99;
     border-radius: 10px;
     text-align:justify;
+    line-height: 1.5;
 }
 .partners__list {
     display: flex;
@@ -143,9 +144,7 @@ footer {
     object-fit: contain;
 }
 /* Планшеты */
-@media (min-width: 720px) {
 
-}
 /*Смартфоны*/
 @media (min-width: 350px) and (max-width: 599px) {
     .header__menu_main {
@@ -265,7 +264,7 @@ footer {
       
         width: 95%;
         max-height: 1000px;
-       
+        /* line-height: 1.5; */
         font-size: 18px;
         padding: 20px 7px 7px 7px;
         text-align:justify;
