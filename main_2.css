@@ -27,7 +27,7 @@ body {
     padding: 5px;
 }
 .secondPage__block_mobile {
-    /* display: block; */
+    
     display: none;
 }
 .secondPage__img {
@@ -125,7 +125,7 @@ body {
         padding-left: 4px;
         padding-right: 4px;
         margin-bottom: 5px;
-        /* height: 180px; */
+        
     }
     .secondPage__img_mob {
         width: 100%;
@@ -138,11 +138,12 @@ body {
       
         object-fit: cover;
         height: 180px;
-        /* height: 100%; */
+        
       
     }
     .text_mobile {
-        text-align:justify;
+        text-align: justify;
+        word-break: break-all;
     }
 
 }
@@ -158,13 +159,13 @@ body {
     }
     .secondPage__img {
         width: 50%;
-        /* height: 253.96px; */
+        
     }
     .secondPage__img_style {
         width: 100%;
       
         object-fit: cover;
-        /* height: 253.96px; */
+        
       
     }
     .main__info_title {
@@ -196,4 +197,7 @@ body {
     .cursive {
         font-size: 13px;
     }
+}
+@media (min-width: 1040px) {
+    
 }
