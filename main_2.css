@@ -150,6 +150,10 @@ body {
         line-height: 1.5;
         /* word-break: break-all; */
     }
+    .cursive_mobile {
+        /* font-size: 13px; */
+        margin-top: 20px;
+    }
 
 }
 /*600-1039*/
@@ -195,12 +199,13 @@ body {
         padding-left: 10px;
         padding-right: 10px;
     }
-    .text {
+    .text_mobile {
         text-align:justify;
         font-size: 18px;
     }
-    .cursive {
+    .cursive_mobile {
         font-size: 13px;
+        margin-top: 15px;
     }
 }
 @media (min-width: 1040px) {
